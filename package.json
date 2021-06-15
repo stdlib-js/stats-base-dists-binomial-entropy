@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-binomial-entropy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Binomial distribution entropy.",
   "license": "Apache-2.0",
   "author": {
