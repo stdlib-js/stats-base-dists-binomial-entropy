@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nonnegative-integer@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-exp@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pinf@esm/index.mjs";var r=s,m=t,a=e,d=i,o=n;var j=function(s,t){var e,i,n,j;if(m(s)||m(t)||t<0||t>1||!r(s)||s===o)return NaN;if(0===t||1===t||0===s)return 0;for(e=s*d(j=1-t),i=a(e)*e,n=1;n<=s;n++)e+=d((s-n+1)/n)+d(t/j),i+=a(e)*e;return-i};export{j as default};
-//# sourceMappingURL=index.mjs.map
