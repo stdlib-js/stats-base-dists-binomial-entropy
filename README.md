@@ -69,7 +69,7 @@ where `n` is the number of trials and `p` is the success probability.
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@v0.2.1-deno/mod.js';
 ```
 
 #### entropy( n, p )
@@ -137,7 +137,7 @@ v = entropy( 20, 1.5 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@v0.2.1-deno/mod.js';
 
 var v;
 var i;
