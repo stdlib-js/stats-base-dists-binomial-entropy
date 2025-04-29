@@ -62,14 +62,32 @@ where `n` is the number of trials and `p` is the success probability.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-binomial-entropy
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@deno/mod.js';
+var entropy = require( '@stdlib/stats-base-dists-binomial-entropy' );
 ```
 
 #### entropy( n, p )
@@ -135,21 +153,18 @@ v = entropy( 20, 1.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@deno/mod.js';
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var entropy = require( '@stdlib/stats-base-dists-binomial-entropy' );
 
-var v;
-var i;
-var n;
-var p;
+var opts = {
+    'dtype': 'float64'
+};
+var n = discreteUniform( 10, 0, 100, opts );
+var p = uniform( 10, 0.0, 1.0, opts );
 
-for ( i = 0; i < 10; i++ ) {
-    n = round( randu() * 100.0 );
-    p = randu();
-    v = entropy( n, p );
-    console.log( 'n: %d, p: %d, H(X;n,p): %d', n, p.toFixed( 4 ), v.toFixed( 4 ) );
-}
+logEachMap( 'n: %0.4f, p: %0.4f, H(X;n,p): %0.4f', n, p, entropy );
 ```
 
 </section>
@@ -181,7 +196,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
