@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-29)
+## Unreleased (2025-07-25)
+
+<section class="features">
+
+### Features
+
+-   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3466](https://github.com/stdlib-js/stdlib/issues/3466)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - **feat:** add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
 -   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh, Athan Reines)_
 -   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh)_
 -   [`af55f0d`](https://github.com/stdlib-js/stdlib/commit/af55f0d6d6b4d06c36f46357740ea89a4639ab5b) - **bench:** refactor random number generation in `stats/base/dists/binomial` [(#4841)](https://github.com/stdlib-js/stdlib/pull/4841) _(by Karan Anand)_
@@ -26,11 +49,13 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Divyansh Seth
 -   Harsh
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
