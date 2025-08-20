@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
@@ -34,6 +34,9 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`b6ca4b7`](https://github.com/stdlib-js/stdlib/commit/b6ca4b794ee6a139616ef2115e7ba38bdede2f85) - **docs:** fix capitalization [(#7763)](https://github.com/stdlib-js/stdlib/pull/7763) _(by Abhishek G, Athan Reines)_
 -   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - **feat:** add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
 -   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh, Athan Reines)_
