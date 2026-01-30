@@ -69,6 +69,11 @@ where `n` is the number of trials and `p` is the success probability.
 ## Usage
 
 ```javascript
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-binomial-entropy/tags). For example,
+
+```javascript
 import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@v0.3.0-deno/mod.js';
 ```
 
@@ -138,7 +143,7 @@ v = entropy( 20, 1.5 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@v0.3.0-deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-entropy@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
