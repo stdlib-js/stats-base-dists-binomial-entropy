@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-08-20)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -39,8 +39,8 @@ A total of 2 issues were closed in this release:
 -   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`b6ca4b7`](https://github.com/stdlib-js/stdlib/commit/b6ca4b794ee6a139616ef2115e7ba38bdede2f85) - **docs:** fix capitalization [(#7763)](https://github.com/stdlib-js/stdlib/pull/7763) _(by Abhishek G, Athan Reines)_
 -   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - **feat:** add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
--   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh, Athan Reines)_
--   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh)_
+-   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh Yadav, Athan Reines)_
+-   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh Yadav)_
 -   [`af55f0d`](https://github.com/stdlib-js/stdlib/commit/af55f0d6d6b4d06c36f46357740ea89a4639ab5b) - **bench:** refactor random number generation in `stats/base/dists/binomial` [(#4841)](https://github.com/stdlib-js/stdlib/pull/4841) _(by Karan Anand)_
 
 </details>
@@ -58,7 +58,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   Abhishek G
 -   Athan Reines
 -   Divyansh Seth
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
